@@ -12,4 +12,9 @@ public class Utilities : MonoBehaviour
         Application.Quit();
         Debug.Log("Game Stopped");
     }
+    
+    public void QuittoMenu()
+    {
+        SceneManager.LoadScene("Start");
+    }
 }
